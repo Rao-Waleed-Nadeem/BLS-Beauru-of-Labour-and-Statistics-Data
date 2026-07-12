@@ -11,7 +11,7 @@ def test_pipeline_directory_structure():
     assert (pipeline_dir / '__init__.py').exists(), "pipeline/__init__.py is missing"
     
     required_pkgs = [
-        'config', 'scheduler', 'collectors', 'parsers',
+        'config', 'registry', 'scheduler', 'collectors', 'parsers',
         'normalizers', 'validators', 'storage', 'datasets',
         'features', 'utils'
     ]
