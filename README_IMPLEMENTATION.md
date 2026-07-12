@@ -202,26 +202,27 @@ Production Ready
 | M02 | Configuration System   | [x]    |
 | M03 | Registry Loader        | [x]    |
 | M04 | Scheduler              | [x]    |
-| M05 | Calendar Collector     | ☐      |
-| M06 | Archive Collector      | ☐      |
-| M07 | RSS Collector          | ☐      |
-| M08 | HTML Collector         | ☐      |
-| M09 | PDF Collector          | ☐      |
-| M10 | API Collector          | ☐      |
-| M11 | Parser Framework       | ☐      |
-| M12 | HTML Parser            | ☐      |
-| M13 | PDF Parser             | ☐      |
-| M14 | RSS Parser             | ☐      |
-| M15 | API Parser             | ☐      |
-| M16 | Unified Normalizer     | ☐      |
-| M17 | Validation Engine      | ☐      |
-| M18 | Storage Manager        | ☐      |
-| M19 | Dataset Builder        | ☐      |
-| M20 | Feature Engineering    | ☐      |
-| M21 | Historical Backfill    | ☐      |
-| M22 | Incremental Updates    | ☐      |
-| M23 | End-to-End Testing     | ☐      |
-| M24 | Production Deployment  | ☐      |
+| M05 | Calendar Collector     | ☑      |
+
+| M06 | Archive Collector | ☐ |
+| M07 | RSS Collector | ☐ |
+| M08 | HTML Collector | ☐ |
+| M09 | PDF Collector | ☐ |
+| M10 | API Collector | ☐ |
+| M11 | Parser Framework | ☐ |
+| M12 | HTML Parser | ☐ |
+| M13 | PDF Parser | ☐ |
+| M14 | RSS Parser | ☐ |
+| M15 | API Parser | ☐ |
+| M16 | Unified Normalizer | ☐ |
+| M17 | Validation Engine | ☐ |
+| M18 | Storage Manager | ☐ |
+| M19 | Dataset Builder | ☐ |
+| M20 | Feature Engineering | ☐ |
+| M21 | Historical Backfill | ☐ |
+| M22 | Incremental Updates | ☐ |
+| M23 | End-to-End Testing | ☐ |
+| M24 | Production Deployment | ☐ |
 
 ---
 
