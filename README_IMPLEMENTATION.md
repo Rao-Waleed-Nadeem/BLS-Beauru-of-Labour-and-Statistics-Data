@@ -201,7 +201,7 @@ Production Ready
 | M01 | Project Infrastructure | [x]    |
 | M02 | Configuration System   | [x]    |
 | M03 | Registry Loader        | [x]    |
-| M04 | Scheduler              | ☐      |
+| M04 | Scheduler              | [x]    |
 | M05 | Calendar Collector     | ☐      |
 | M06 | Archive Collector      | ☐      |
 | M07 | RSS Collector          | ☐      |
