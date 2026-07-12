@@ -1,0 +1,10 @@
+project:
+  name: "Bitcoin Market Intelligence Dataset - BLS Module"
+  version: "1.0.0"
+  description: "Institutional-grade dataset collector for Bureau of Labor Statistics"
+  timezone: "UTC"
+  default_locale: "en_US"
+
+organization:
+  name: "U.S. Bureau of Labor Statistics (BLS)"
+  code: "bls"

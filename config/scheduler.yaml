@@ -1,0 +1,18 @@
+scheduler:
+  polling_interval_seconds: 60
+  
+  jobs:
+    calendar_sync:
+      interval_minutes: 1440 # daily
+      priority: 1
+    archive_sync:
+      interval_minutes: 10080 # weekly
+      priority: 2
+    rss_sync:
+      interval_minutes: 5 # every 5 mins
+      priority: 0
+      
+  queues:
+    high_priority: 0
+    default_priority: 1
+    low_priority: 2

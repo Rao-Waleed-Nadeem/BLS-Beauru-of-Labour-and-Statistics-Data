@@ -199,7 +199,7 @@ Production Ready
 | ID  | Milestone              | Status |
 | --- | ---------------------- | ------ |
 | M01 | Project Infrastructure | [x]    |
-| M02 | Configuration System   | ☐      |
+| M02 | Configuration System   | [x]    |
 | M03 | Registry Loader        | ☐      |
 | M04 | Scheduler              | ☐      |
 | M05 | Calendar Collector     | ☐      |

@@ -1,0 +1,35 @@
+pipeline:
+  name: "bls_pipeline"
+  execution_mode: "incremental" # can be 'historical' or 'incremental'
+  
+  stages:
+    config_loader:
+      enabled: true
+      strict: true
+    registry_loader:
+      enabled: true
+      strict: true
+    scheduler:
+      enabled: true
+    collectors:
+      enabled: true
+      max_retries: 3
+      timeout_seconds: 30
+      backoff_factor: 2
+    parsers:
+      enabled: true
+    normalizers:
+      enabled: true
+    validators:
+      enabled: true
+      fail_fast: false
+    storage_manager:
+      enabled: true
+    dataset_builder:
+      enabled: true
+    feature_builder:
+      enabled: true
+
+  security:
+    ssl_verify: true
+    user_agent: "BLS Market Intelligence Bot / 1.0"

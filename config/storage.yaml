@@ -1,0 +1,25 @@
+storage:
+  root_dir: "storage"
+  
+  directories:
+    raw: "raw"
+    normalized: "normalized"
+    validated: "validated"
+    processed: "processed"
+    features: "features"
+    metadata: "metadata"
+    logs: "logs"
+    backups: "backups"
+
+  # Compression settings per layer
+  compression:
+    raw: "none"
+    normalized: "gzip"
+    validated: "gzip"
+    processed: "parquet"
+    backups: "zip"
+    
+  # Processed formats
+  formats:
+    processed: ["json", "csv", "parquet"]
+    features: ["parquet"]
