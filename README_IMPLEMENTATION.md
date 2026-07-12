@@ -202,9 +202,9 @@ Production Ready
 | M02 | Configuration System   | [x]    |
 | M03 | Registry Loader        | [x]    |
 | M04 | Scheduler              | [x]    |
-| M05 | Calendar Collector     | ☑      |
+| M05 | Calendar Collector     | [x]    |
 
-| M06 | Archive Collector | ☐ |
+| M06 | Archive Collector | [x] |
 | M07 | RSS Collector | ☐ |
 | M08 | HTML Collector | ☐ |
 | M09 | PDF Collector | ☐ |
