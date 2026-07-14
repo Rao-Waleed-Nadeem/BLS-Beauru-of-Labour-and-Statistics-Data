@@ -1,27 +1,10 @@
-# TODO - BLS Milestone Implementation
+# Milestone Implementation TODO
 
-Active milestone tracking and step execution list.
+## M08 — HTML Collector (Milestone in Progress)
 
-## Milestone
-
-M07 — RSS Collector
-
-## Steps
-
-- [x] Read README_IMPLEMENTATION.md and confirm current/next milestone
-- [x] Read required documentation for the next milestone (max 3 markdown files)
-- [x] Identify required components, files to create/modify, acceptance criteria
-
-- [x] Create/confirm implementation plan (no code changes yet)
-- [x] Wait for approval to start coding
-
-- [x] Implement milestone
-- [x] Run tests for the milestone
-- [x] Self review
-- [x] Fix issues found in self review
-
-- [x] Final validation
-
-- [x] Update README_IMPLEMENTATION.md milestone status + progress
-
-- [x] Update this TODO.md to mark steps complete
+- [x] Implement `pipeline/collectors/html_registry_loader.py`
+- [x] Implement `pipeline/collectors/html_collector.py`
+- [x] Update `pipeline/collectors/__init__.py` exports
+- [x] Add `tests/test_html_collector.py`
+- [x] Run `pytest` and fix any regressions
+- [x] Mark M08 completed in TODO
