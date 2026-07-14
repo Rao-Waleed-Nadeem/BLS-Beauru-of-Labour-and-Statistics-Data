@@ -205,7 +205,8 @@ Production Ready
 | M05 | Calendar Collector     | [x]    |
 
 | M06 | Archive Collector | [x] |
-| M07 | RSS Collector | ☐ |
+| M07 | RSS Collector | [x] |
+
 | M08 | HTML Collector | ☐ |
 | M09 | PDF Collector | ☐ |
 | M10 | API Collector | ☐ |
