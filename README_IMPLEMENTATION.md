@@ -208,7 +208,7 @@ Production Ready
 | M07 | RSS Collector | [x] |
 
 | M08 | HTML Collector | [x] |
-| M09 | PDF Collector | ☐ |
+| M09 | PDF Collector | [x] |
 | M10 | API Collector | ☐ |
 | M11 | Parser Framework | ☐ |
 | M12 | HTML Parser | ☐ |
