@@ -1,6 +1,6 @@
-import os
+﻿import os
 from pathlib import Path
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 def test_pipeline_directory_structure():
     """Verify that all required pipeline directories exist and contain __init__.py"""

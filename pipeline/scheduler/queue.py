@@ -2,7 +2,7 @@ import heapq
 from datetime import datetime
 from typing import Dict, List, Optional
 
-from pipeline.scheduler.models import Job, JobStatus
+from .models import Job, JobStatus
 
 
 class JobQueue:

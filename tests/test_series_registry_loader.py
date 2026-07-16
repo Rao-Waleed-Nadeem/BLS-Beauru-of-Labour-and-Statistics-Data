@@ -1,6 +1,6 @@
-import pytest
+﻿import pytest
 from pathlib import Path
-from pipeline.collectors.series_registry_loader import SeriesRegistryLoader
+from BLS.pipeline.collectors.series_registry_loader import SeriesRegistryLoader
 
 def test_series_registry_loader(tmp_path: Path):
     registry_content = """# SERIES_REGISTRY.md

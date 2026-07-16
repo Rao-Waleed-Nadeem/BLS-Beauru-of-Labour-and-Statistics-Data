@@ -1,8 +1,8 @@
-import re
+﻿import re
 from typing import Pattern
 
-from pipeline.registry.cache import RegistryCache
-from pipeline.registry.models import (
+from BLS.pipeline.registry.cache import RegistryCache
+from BLS.pipeline.registry.models import (
     DatasetRegistryEntry,
     ProgramRegistryEntry,
     UrlRegistryEntry,

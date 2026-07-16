@@ -1,10 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import datetime, timezone
 import json
 
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.collectors.html_collector import HTMLCollector
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.collectors.html_collector import HTMLCollector
 
 
 def test_html_registry_loader_parses_enabled_pages():

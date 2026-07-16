@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import os
@@ -9,12 +9,12 @@ from typing import Any, Dict, List, Optional
 
 import requests
 
-from pipeline.collectors.calendar_parser import CalendarEvent, parse_ics_events
-from pipeline.collectors.calendar_registry_loader import CalendarRegistryLoader
-from pipeline.config.loader import ConfigLoader
-from pipeline.scheduler.models import Job
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.collectors.calendar_parser import CalendarEvent, parse_ics_events
+from BLS.pipeline.collectors.calendar_registry_loader import CalendarRegistryLoader
+from BLS.pipeline.config.loader import ConfigLoader
+from BLS.pipeline.scheduler.models import Job
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 
 class CalendarCollector:

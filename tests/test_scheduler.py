@@ -1,8 +1,8 @@
-from datetime import datetime, timedelta, timezone
+﻿from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from pipeline.scheduler import (
+from BLS.pipeline.scheduler import (
     Job,
     JobQueue,
     JobStatus,
@@ -166,7 +166,7 @@ def test_task_scheduler_fail_job():
 
 
 def test_public_scheduler_exports():
-    from pipeline import scheduler
+    from BLS.pipeline import scheduler
 
     assert scheduler.TaskScheduler is TaskScheduler
     assert scheduler.JobQueue is JobQueue

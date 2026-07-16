@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 from dataclasses import asdict, dataclass
@@ -6,14 +6,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from pipeline.collectors.archive_registry_loader import (
+from BLS.pipeline.collectors.archive_registry_loader import (
     ArchiveRegistryEntry,
     ArchiveRegistryLoader,
 )
-from pipeline.config.loader import ConfigLoader
-from pipeline.scheduler.models import Job
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.config.loader import ConfigLoader
+from BLS.pipeline.scheduler.models import Job
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 
 @dataclass(frozen=True)

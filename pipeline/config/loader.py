@@ -1,8 +1,8 @@
-import yaml
+﻿import yaml
 from pathlib import Path
 from typing import Dict, Any
 
-from pipeline.utils.base_utils import get_project_root
+from BLS.pipeline.utils.base_utils import get_project_root
 
 class ConfigLoader:
     """

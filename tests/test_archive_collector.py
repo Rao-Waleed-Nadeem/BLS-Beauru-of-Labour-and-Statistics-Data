@@ -1,10 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import datetime, timezone
 import json
 
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.collectors.archive_collector import ArchiveCollector
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.collectors.archive_collector import ArchiveCollector
 
 
 def test_archive_registry_loader_parses_basic_fields():

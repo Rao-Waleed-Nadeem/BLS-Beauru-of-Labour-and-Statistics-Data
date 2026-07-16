@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import hashlib
 import json
@@ -10,9 +10,9 @@ from typing import Any, Dict, List, Optional
 
 import requests
 
-from pipeline.collectors.rss_registry_loader import RSSRegistryLoader
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.collectors.rss_registry_loader import RSSRegistryLoader
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 
 @dataclass(frozen=True)

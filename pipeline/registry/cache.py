@@ -1,6 +1,6 @@
-from typing import Dict, Optional
+﻿from typing import Dict, Optional
 
-from pipeline.registry.models import (
+from BLS.pipeline.registry.models import (
     DatasetRegistryEntry,
     ProgramRegistryEntry,
     UrlRegistryEntry,

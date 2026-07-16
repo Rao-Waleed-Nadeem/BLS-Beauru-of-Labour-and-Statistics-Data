@@ -1,7 +1,7 @@
-import re
+﻿import re
 from typing import List
 
-from pipeline.registry.models import (
+from BLS.pipeline.registry.models import (
     DatasetRegistryEntry,
     ProgramRegistryEntry,
     UrlRegistryEntry,
@@ -91,7 +91,7 @@ class RegistryParser:
         return [
             line.strip()
             for line in content.splitlines()
-            if line.strip() and line.strip() != "↓"
+            if line.strip() and line.strip() != "â†“"
         ]
 
     def parse_programs(self, markdown_content: str) -> List[ProgramRegistryEntry]:

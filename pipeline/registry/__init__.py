@@ -2,9 +2,8 @@
 
 This file is intentionally light to avoid circular imports.
 
-Tests import `pipeline.registry.*` from the top-level compatibility package,
-not from here, but this module must still be safe when imported by other
-BLS pipeline code.
+This module stays import-light so registry helpers can be imported without
+eagerly loading the rest of the BLS pipeline.
 """
 
 __all__ = [

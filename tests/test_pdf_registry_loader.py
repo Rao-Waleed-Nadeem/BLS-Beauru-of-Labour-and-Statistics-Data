@@ -1,6 +1,6 @@
-import pytest
+﻿import pytest
 from pathlib import Path
-from pipeline.collectors.pdf_registry_loader import PDFRegistryLoader, PDFRegistryEntry
+from BLS.pipeline.collectors.pdf_registry_loader import PDFRegistryLoader, PDFRegistryEntry
 
 def test_pdf_registry_loader(tmp_path: Path):
     registry_content = """# PDF_REGISTRY.md

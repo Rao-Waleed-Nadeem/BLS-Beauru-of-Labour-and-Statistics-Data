@@ -1,10 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import datetime, timezone
 import json
 
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.collectors.rss_collector import RSSCollector
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.collectors.rss_collector import RSSCollector
 
 
 def test_rss_registry_loader_parses_enabled_feeds():

@@ -1,6 +1,6 @@
-import pytest
+﻿import pytest
 
-from pipeline.registry import (
+from BLS.pipeline.registry import (
     DatasetRegistryEntry,
     ProgramRegistryEntry,
     RegistryCache,
@@ -9,7 +9,7 @@ from pipeline.registry import (
     RegistryValidator,
     UrlRegistryEntry,
 )
-from pipeline.utils.base_utils import get_project_root
+from BLS.pipeline.utils.base_utils import get_project_root
 
 REGISTRY_DIR = (
     get_project_root()
@@ -155,7 +155,7 @@ def test_cache_rejects_duplicate_ids():
 
 
 def test_public_registry_exports():
-    from pipeline import registry
+    from BLS.pipeline import registry
 
     assert registry.RegistryLoader is RegistryLoader
     assert registry.UrlRegistryEntry is UrlRegistryEntry

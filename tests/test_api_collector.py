@@ -1,9 +1,9 @@
-import json
+﻿import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from pipeline.collectors.api_collector import APICollector
-from pipeline.collectors.series_registry_loader import SeriesRegistryLoader, SeriesRegistryEntry
+from BLS.pipeline.collectors.api_collector import APICollector
+from BLS.pipeline.collectors.series_registry_loader import SeriesRegistryLoader, SeriesRegistryEntry
 
 class DummyScheduler:
     def __init__(self):

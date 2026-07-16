@@ -1,10 +1,10 @@
-from pathlib import Path
+﻿from pathlib import Path
 from typing import Optional
 
-from pipeline.registry.cache import RegistryCache
-from pipeline.registry.parser import RegistryParser
-from pipeline.registry.validator import RegistryValidator
-from pipeline.utils.base_utils import get_project_root
+from BLS.pipeline.registry.cache import RegistryCache
+from BLS.pipeline.registry.parser import RegistryParser
+from BLS.pipeline.registry.validator import RegistryValidator
+from BLS.pipeline.utils.base_utils import get_project_root
 
 
 class RegistryLoader:

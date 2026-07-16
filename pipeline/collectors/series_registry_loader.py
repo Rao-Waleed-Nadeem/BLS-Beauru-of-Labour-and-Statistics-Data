@@ -1,11 +1,11 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import re
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Any
 
-from pipeline.utils.base_utils import get_project_root
+from BLS.pipeline.utils.base_utils import get_project_root
 
 
 @dataclass(frozen=True)

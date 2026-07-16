@@ -1,12 +1,12 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import datetime, timezone
 
 import json
 from pathlib import Path
 
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.collectors.calendar_collector import CalendarCollector
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.collectors.calendar_collector import CalendarCollector
 
 
 def test_calendar_registry_loader_parses_basic_fields():

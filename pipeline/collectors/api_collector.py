@@ -1,16 +1,16 @@
-import json
+﻿import json
 import logging
 import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 
-from pipeline.collectors.series_registry_loader import SeriesRegistryLoader, SeriesRegistryEntry
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.collectors.series_registry_loader import SeriesRegistryLoader, SeriesRegistryEntry
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 
 class APICollector:
@@ -56,9 +56,16 @@ class APICollector:
             if key not in payload:
                 raise ValueError(f"Missing required key in response: {key}")
 
+        if payload.get("status") != "REQUEST_SUCCEEDED":
+            messages = payload.get("message") or []
+            raise ValueError(f"BLS API request failed: {messages}")
+
         results = payload.get("Results", {})
         if not isinstance(results, dict) or "series" not in results:
             raise ValueError("Missing 'series' key in 'Results'")
+
+        if not isinstance(results["series"], list):
+            raise ValueError("'Results.series' must be a list")
 
         returned_series_ids = []
         for s in results["series"]:
@@ -66,14 +73,16 @@ class APICollector:
                 raise ValueError("Series object missing 'seriesID' or 'data'")
             returned_series_ids.append(s["seriesID"])
 
-        # Validate that the requested series were returned
-        for s_id in requested_series:
-            if s_id not in returned_series_ids:
-                # The BLS API might omit a series if it's completely invalid, but as per spec:
-                # "Returned Series ID differs from requested Series ID -> Reject Response"
-                raise ValueError(f"Requested series {s_id} not found in response")
+        missing = set(requested_series) - set(returned_series_ids)
+        unexpected = set(returned_series_ids) - set(requested_series)
+        if missing:
+            raise ValueError(f"Requested series not found in response: {sorted(missing)}")
+        if unexpected:
+            raise ValueError(f"Response contained unrequested series: {sorted(unexpected)}")
 
-    def _post_with_retries(self, payload: Dict[str, Any], dry_run: bool = False) -> Dict[str, Any]:
+    def _post_with_retries(
+        self, payload: Dict[str, Any], dry_run: bool = False
+    ) -> Tuple[Dict[str, Any], int, int]:
         """Makes a POST request to the BLS API with basic retry logic for transient errors."""
         if dry_run:
             return {
@@ -85,7 +94,7 @@ class APICollector:
                         {"seriesID": s_id, "data": []} for s_id in payload.get("seriesid", [])
                     ]
                 }
-            }
+            }, 200, 0
 
         max_attempts = 3
         delay = 2
@@ -104,7 +113,7 @@ class APICollector:
                 )
                 
                 # BLS sends 200 even for errors in payload sometimes, but HTTP 429/500 are standard.
-                if resp.status_code in (429, 500, 502, 503, 504):
+                if resp.status_code in (202, 429, 500, 502, 503, 504):
                     self.logger.warning(f"Transient error {resp.status_code}, attempt {attempt}/{max_attempts}")
                     if attempt < max_attempts:
                         time.sleep(delay ** attempt)
@@ -115,7 +124,7 @@ class APICollector:
                     resp.raise_for_status()
 
                 try:
-                    return resp.json()
+                    return resp.json(), resp.status_code, attempt - 1
                 except json.JSONDecodeError:
                     if attempt < max_attempts:
                         time.sleep(delay ** attempt)
@@ -129,6 +138,21 @@ class APICollector:
                 time.sleep(delay ** attempt)
         
         raise RuntimeError("Unreachable")
+
+    def _normalize_response(self, payload: Dict[str, Any]) -> Dict[str, Any]:
+        """Create parser-ready JSON while preserving all original API values."""
+        return {
+            "collector": "api_collector",
+            "collector_version": "m10",
+            "status": payload.get("status"),
+            "responseTime": payload.get("responseTime"),
+            "series": payload.get("Results", {}).get("series", []),
+        }
+
+    def _batch_dir(self, year: str, timestamp: str, batch_number: int) -> Path:
+        if batch_number == 1:
+            return self.storage_root / year / timestamp
+        return self.storage_root / year / f"{timestamp}-batch-{batch_number:03d}"
 
     def collect(
         self,
@@ -154,7 +178,17 @@ class APICollector:
         # but for simplicity and safety against mixed parameters, we'll batch them up to 50 
         # using a common set of parameters if they share them, or group by parameters.
 
-        # Let's group by startyear and endyear
+        seen_series_ids = set()
+        duplicate_series_ids = set()
+        for entry in entries:
+            if not entry.series_id:
+                raise ValueError(f"Series registry entry missing series_id: {entry.entry_id}")
+            if entry.series_id in seen_series_ids:
+                duplicate_series_ids.add(entry.series_id)
+            seen_series_ids.add(entry.series_id)
+        if duplicate_series_ids:
+            raise ValueError(f"Duplicate series IDs in registry: {sorted(duplicate_series_ids)}")
+
         groups: Dict[str, List[SeriesRegistryEntry]] = {}
         for entry in entries:
             startyear = entry.api_payload.get("startyear", str(now_utc.year - 1))
@@ -162,6 +196,7 @@ class APICollector:
             key = f"{startyear}_{endyear}"
             groups.setdefault(key, []).append(entry)
 
+        batch_number = 0
         for key, group_entries in groups.items():
             startyear, endyear = key.split("_")
             
@@ -175,6 +210,7 @@ class APICollector:
                     continue
                 
                 results["batches"] += 1
+                batch_number += 1
                 
                 payload = {
                     "seriesid": series_ids,
@@ -191,11 +227,12 @@ class APICollector:
                 year_str = str(now_utc.year)
                 
                 # As per API_REGISTRY.md storage standard
-                batch_dir = self.storage_root / year_str / timestamp_str
+                batch_dir = self._batch_dir(year_str, timestamp_str, batch_number)
                 batch_dir.mkdir(parents=True, exist_ok=True)
                 
                 request_path = batch_dir / "request.json"
                 response_path = batch_dir / "response.json"
+                normalized_path = batch_dir / "normalized.json"
                 validation_path = batch_dir / "validation_report.json"
                 log_path = batch_dir / "request.log"
                 
@@ -203,22 +240,33 @@ class APICollector:
                 
                 try:
                     start_time = time.monotonic()
-                    resp_json = self._post_with_retries(payload, dry_run=dry_run)
+                    resp_json, http_status, retry_count = self._post_with_retries(payload, dry_run=dry_run)
                     duration = time.monotonic() - start_time
                     
                     response_path.write_text(json.dumps(resp_json, indent=2), encoding="utf-8")
                     
                     self._validate_json_response(resp_json, series_ids)
+                    normalized_path.write_text(
+                        json.dumps(self._normalize_response(resp_json), indent=2),
+                        encoding="utf-8",
+                    )
                     
                     validation_payload = {
                         "status": "ok",
+                        "http_status": http_status,
+                        "retry_count": retry_count,
                         "series_requested": len(series_ids),
                         "series_returned": len(resp_json.get("Results", {}).get("series", [])),
                     }
                     validation_path.write_text(json.dumps(validation_payload, indent=2), encoding="utf-8")
                     
                     with open(log_path, "a", encoding="utf-8") as f:
-                        f.write(f"[{now_utc.isoformat()}] series={','.join(series_ids)} endpoint={self.endpoint} status=ok duration={duration:.2f}s file={response_path}\n")
+                        f.write(
+                            f"[{now_utc.isoformat()}] series={','.join(series_ids)} "
+                            f"endpoint={self.endpoint} http_status={http_status} "
+                            f"response_time={resp_json.get('responseTime')} retry_count={retry_count} "
+                            f"validation_status=ok duration={duration:.2f}s file={response_path}\n"
+                        )
                     
                     results["success"] += 1
                     results["details"].append({"series": series_ids, "status": "ok"})
@@ -240,7 +288,10 @@ class APICollector:
                     validation_path.write_text(json.dumps(validation_payload, indent=2), encoding="utf-8")
                     
                     with open(log_path, "a", encoding="utf-8") as f:
-                        f.write(f"[{now_utc.isoformat()}] series={','.join(series_ids)} endpoint={self.endpoint} status=failed error={str(ex)}\n")
+                        f.write(
+                            f"[{now_utc.isoformat()}] series={','.join(series_ids)} "
+                            f"endpoint={self.endpoint} validation_status=failed error={str(ex)}\n"
+                        )
                     
                     results["failed"] += 1
                     results["details"].append({"series": series_ids, "status": "failed", "error": str(ex)})

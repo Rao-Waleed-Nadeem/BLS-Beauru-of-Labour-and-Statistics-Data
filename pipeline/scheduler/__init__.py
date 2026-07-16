@@ -1,7 +1,7 @@
-from pipeline.scheduler.models import Job, JobStatus
-from pipeline.scheduler.priority import PrioritySystem
-from pipeline.scheduler.queue import JobQueue
-from pipeline.scheduler.scheduler import TaskScheduler
+from .models import Job, JobStatus
+from .priority import PrioritySystem
+from .queue import JobQueue
+from .scheduler import TaskScheduler
 
 __all__ = [
     "Job",

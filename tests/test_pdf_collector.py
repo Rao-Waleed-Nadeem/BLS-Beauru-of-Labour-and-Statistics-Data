@@ -1,8 +1,8 @@
-import json
+﻿import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from pipeline.collectors.pdf_collector import PDFCollector
+from BLS.pipeline.collectors.pdf_collector import PDFCollector
 
 class DummyScheduler:
     def __init__(self):

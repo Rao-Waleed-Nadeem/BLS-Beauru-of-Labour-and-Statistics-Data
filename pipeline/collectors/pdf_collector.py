@@ -1,4 +1,4 @@
-import hashlib
+﻿import hashlib
 import json
 import logging
 from datetime import datetime, timezone
@@ -8,8 +8,8 @@ from typing import Any, Dict, Optional
 import requests
 import pypdf
 
-from pipeline.scheduler.scheduler import TaskScheduler
-from pipeline.utils.base_utils import get_project_root, setup_logger
+from BLS.pipeline.scheduler.scheduler import TaskScheduler
+from BLS.pipeline.utils.base_utils import get_project_root, setup_logger
 
 
 def _sha256_bytes(data: bytes) -> str:

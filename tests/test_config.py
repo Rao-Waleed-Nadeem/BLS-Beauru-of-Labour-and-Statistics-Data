@@ -1,5 +1,5 @@
-import pytest
-from pipeline.config.loader import ConfigLoader
+﻿import pytest
+from BLS.pipeline.config.loader import ConfigLoader
 
 def test_config_loader_loads_all_files():
     loader = ConfigLoader()

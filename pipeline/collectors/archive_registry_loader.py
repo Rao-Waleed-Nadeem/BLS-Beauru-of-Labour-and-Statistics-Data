@@ -1,11 +1,11 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional
 
-from pipeline.utils.base_utils import get_project_root
+from BLS.pipeline.utils.base_utils import get_project_root
 
 
 @dataclass(frozen=True)
@@ -61,7 +61,7 @@ class ArchiveRegistryLoader:
         if not raw:
             return []
         # Supported years format uses arrows; normalize by splitting on arrows.
-        parts = [p.strip() for p in re.split(r"→|->", raw) if p.strip()]
+        parts = [p.strip() for p in re.split(r"â†’|->", raw) if p.strip()]
         return parts
 
     def load(self) -> List[ArchiveRegistryEntry]:
