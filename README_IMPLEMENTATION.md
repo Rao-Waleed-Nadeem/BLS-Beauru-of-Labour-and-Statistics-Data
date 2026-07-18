@@ -216,7 +216,7 @@ Production Ready
 | M14 | RSS Parser | [x] |
 | M15 | API Parser | [x] |
 | M16 | Unified Normalizer | [x] |
-| M17 | Validation Engine | ☐ |
+| M17 | Validation Engine | [x] |
 | M18 | Storage Manager | ☐ |
 | M19 | Dataset Builder | ☐ |
 | M20 | Feature Engineering | ☐ |
