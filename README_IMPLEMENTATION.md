@@ -213,7 +213,7 @@ Production Ready
 | M11 | Parser Framework | [x] |
 | M12 | HTML Parser | [x] |
 | M13 | PDF Parser | [x] |
-| M14 | RSS Parser | ☐ |
+| M14 | RSS Parser | [x] |
 | M15 | API Parser | ☐ |
 | M16 | Unified Normalizer | ☐ |
 | M17 | Validation Engine | ☐ |
