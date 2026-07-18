@@ -215,7 +215,7 @@ Production Ready
 | M13 | PDF Parser | [x] |
 | M14 | RSS Parser | [x] |
 | M15 | API Parser | [x] |
-| M16 | Unified Normalizer | ☐ |
+| M16 | Unified Normalizer | [x] |
 | M17 | Validation Engine | ☐ |
 | M18 | Storage Manager | ☐ |
 | M19 | Dataset Builder | ☐ |
