@@ -1,3 +1,4 @@
+from pipeline.parsers.api_parser import APIParser
 from pipeline.parsers.base_parser import BaseParser
 from pipeline.parsers.html_parser import HTMLParser
 from pipeline.parsers.pdf_parser import PDFParser
@@ -28,4 +29,5 @@ __all__ = [
     "HTMLParser",
     "PDFParser",
     "RSSParser",
+    "APIParser",
 ]

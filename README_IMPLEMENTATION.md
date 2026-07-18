@@ -214,7 +214,7 @@ Production Ready
 | M12 | HTML Parser | [x] |
 | M13 | PDF Parser | [x] |
 | M14 | RSS Parser | [x] |
-| M15 | API Parser | ☐ |
+| M15 | API Parser | [x] |
 | M16 | Unified Normalizer | ☐ |
 | M17 | Validation Engine | ☐ |
 | M18 | Storage Manager | ☐ |
