@@ -211,7 +211,7 @@ Production Ready
 | M09 | PDF Collector | [x] |
 | M10 | API Collector | [x] |
 | M11 | Parser Framework | [x] |
-| M12 | HTML Parser | ☐ |
+| M12 | HTML Parser | [x] |
 | M13 | PDF Parser | ☐ |
 | M14 | RSS Parser | ☐ |
 | M15 | API Parser | ☐ |

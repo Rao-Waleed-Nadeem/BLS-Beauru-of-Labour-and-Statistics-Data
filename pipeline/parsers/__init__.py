@@ -1,4 +1,5 @@
 from pipeline.parsers.base_parser import BaseParser
+from pipeline.parsers.html_parser import HTMLParser
 from pipeline.parsers.models import (
     APISchema,
     AttachmentSchema,
@@ -22,4 +23,5 @@ __all__ = [
     "RelationshipSchema",
     "ReleaseSchema",
     "UnifiedObject",
+    "HTMLParser",
 ]
