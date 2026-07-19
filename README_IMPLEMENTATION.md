@@ -217,8 +217,8 @@ Production Ready
 | M15 | API Parser | [x] |
 | M16 | Unified Normalizer | [x] |
 | M17 | Validation Engine | [x] |
-| M18 | Storage Manager | ☐ |
-| M19 | Dataset Builder | ☐ |
+| M18 | Storage Manager | [x] |
+| M19 | Dataset Builder | [x] |
 | M20 | Feature Engineering | ☐ |
 | M21 | Historical Backfill | ☐ |
 | M22 | Incremental Updates | ☐ |

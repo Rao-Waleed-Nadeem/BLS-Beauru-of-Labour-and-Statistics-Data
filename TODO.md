@@ -1,10 +1,21 @@
-# Milestone Implementation TODO
+# TODO - Milestones
 
-## M08 — HTML Collector (Milestone in Progress)
+## M19 — Dataset Builder
 
-- [x] Implement `pipeline/collectors/html_registry_loader.py`
-- [x] Implement `pipeline/collectors/html_collector.py`
-- [x] Update `pipeline/collectors/__init__.py` exports
-- [x] Add `tests/test_html_collector.py`
-- [x] Run `pytest` and fix any regressions
-- [x] Mark M08 completed in TODO
+- [x] Inspect existing dataset/datasets modules and any dataset builder utilities
+
+- [x] Inspect storage manager implementation for processed outputs
+
+- [x] Inspect how pipeline orchestration calls stages
+
+- [x] Implement Dataset Builder stage: group-by dataset, chronological sort, merge, and export JSON/CSV/Parquet
+
+- [x] Ensure required companion outputs exist: metadata.json, relationships.json, validation.json
+
+- [x] Add unit tests for grouping/sorting/merge determinism
+
+- [x] Add integration test that builds a synthetic validated input and asserts Processed outputs
+
+- [x] Update TODO.md / milestone status
+
+- [x] Run pytest and fix issues
