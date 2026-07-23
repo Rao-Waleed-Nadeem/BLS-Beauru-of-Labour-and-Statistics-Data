@@ -1,4 +1,4 @@
-﻿import json
+import json
 import logging
 import os
 import time
@@ -159,6 +159,7 @@ class APICollector:
         *,
         now: Optional[datetime] = None,
         dry_run: bool = False,
+        backfill_start_year: Optional[int] = None,
     ) -> Dict[str, Any]:
         now_utc = now or datetime.now(timezone.utc)
         entries = [e for e in self.registry_loader.load() if e.enabled and e.collection_method.upper() == "API"]
@@ -192,6 +193,8 @@ class APICollector:
         groups: Dict[str, List[SeriesRegistryEntry]] = {}
         for entry in entries:
             startyear = entry.api_payload.get("startyear", str(now_utc.year - 1))
+            if backfill_start_year is not None:
+                startyear = str(backfill_start_year)
             endyear = entry.api_payload.get("endyear", str(now_utc.year))
             key = f"{startyear}_{endyear}"
             groups.setdefault(key, []).append(entry)

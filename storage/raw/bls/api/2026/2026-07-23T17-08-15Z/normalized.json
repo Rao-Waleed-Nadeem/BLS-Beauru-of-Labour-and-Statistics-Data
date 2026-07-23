@@ -1,0 +1,12 @@
+{
+  "collector": "api_collector",
+  "collector_version": "m10",
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 100,
+  "series": [
+    {
+      "seriesID": "CUUR0000SA0",
+      "data": []
+    }
+  ]
+}

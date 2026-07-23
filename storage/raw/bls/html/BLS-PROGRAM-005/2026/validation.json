@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "e37d97af55cd29669d77139b102cd70c8bcd5a77ff35f4ffce3dd96412c81050",
+  "duplicate": true,
+  "reason": "duplicate"
+}

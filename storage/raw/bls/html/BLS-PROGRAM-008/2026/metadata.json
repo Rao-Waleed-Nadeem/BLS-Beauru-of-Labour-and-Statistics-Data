@@ -1,0 +1,11 @@
+{
+  "html_id": "HTML-009",
+  "source_url": "If duplicate:\n\n- Skip parsing.\n- Update metadata.\n- Log the event.\n\n---\n\n# Failure Handling\n\nRetry only for:\n\n- HTTP 429\n- HTTP 500\n- Timeout\n- Network interruption\n\nDo not retry:\n\n- HTTP 404\n- Invalid HTML\n- Unsupported Content-Type\n\n---\n\n# Output Files\n\nEach successful collection must produce:",
+  "download_timestamp": "2026-07-23T17:09:58.176246+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "page_title": "Dry-run BLS Release",
+  "publication_datetime": null,
+  "last_modified": "2026-07-23T17:09:58.176246+00:00",
+  "sha256": "e37d97af55cd29669d77139b102cd70c8bcd5a77ff35f4ffce3dd96412c81050"
+}

@@ -220,7 +220,7 @@ Production Ready
 | M18 | Storage Manager | [x] |
 | M19 | Dataset Builder | [x] |
 | M20 | Feature Engineering | [x] |
-| M21 | Historical Backfill | ☐ |
+| M21 | Historical Backfill | [x] |
 | M22 | Incremental Updates | ☐ |
 | M23 | End-to-End Testing | ☐ |
 | M24 | Production Deployment | ☐ |

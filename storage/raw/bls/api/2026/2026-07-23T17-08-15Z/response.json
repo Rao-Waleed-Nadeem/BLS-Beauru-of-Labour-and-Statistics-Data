@@ -1,0 +1,13 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 100,
+  "message": [],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SA0",
+        "data": []
+      }
+    ]
+  }
+}

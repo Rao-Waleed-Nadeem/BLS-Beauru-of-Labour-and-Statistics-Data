@@ -1,0 +1,56 @@
+[2026-07-23T17:08:15.223219+00:00] html_collector html_id=HTML-009 url=If duplicate:
+
+- Skip parsing.
+- Update metadata.
+- Log the event.
+
+---
+
+# Failure Handling
+
+Retry only for:
+
+- HTTP 429
+- HTTP 500
+- Timeout
+- Network interruption
+
+Do not retry:
+
+- HTTP 404
+- Invalid HTML
+- Unsupported Content-Type
+
+---
+
+# Output Files
+
+Each successful collection must produce: sha256=e37d97af55cd29669d77139b102cd70c8bcd5a77ff35f4ffce3dd96412c81050 duplicate=False
+[2026-07-23T17:09:58.176246+00:00] html_collector html_id=HTML-009 url=If duplicate:
+
+- Skip parsing.
+- Update metadata.
+- Log the event.
+
+---
+
+# Failure Handling
+
+Retry only for:
+
+- HTTP 429
+- HTTP 500
+- Timeout
+- Network interruption
+
+Do not retry:
+
+- HTTP 404
+- Invalid HTML
+- Unsupported Content-Type
+
+---
+
+# Output Files
+
+Each successful collection must produce: sha256=e37d97af55cd29669d77139b102cd70c8bcd5a77ff35f4ffce3dd96412c81050 duplicate=True
