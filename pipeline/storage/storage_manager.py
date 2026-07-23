@@ -216,6 +216,9 @@ class StorageManager:
     def _processed_dir(self, dataset_id: str) -> Path:
         return self.root / "processed" / _SOURCE_NAME / dataset_id
 
+    def _features_dir(self, dataset_id: str) -> Path:
+        return self.root / "features" / _SOURCE_NAME / dataset_id
+
     def _metadata_dir(self, dataset_id: str) -> Path:
         return self.root / "metadata" / _SOURCE_NAME / dataset_id
 
@@ -510,6 +513,74 @@ class StorageManager:
         logger.info(
             "Saved processed dataset '%s' (%d records): %s (sha256=%s…)",
             dataset_id, len(objects), dest_json, checksum[:8],
+        )
+        return StorageResult(success=True, path=dest_json, checksum=checksum)
+
+    def save_features(
+        self,
+        features: List[Dict[str, Any]],
+        dataset_id: str,
+        *,
+        write_csv: bool = True,
+        overwrite: bool = False,
+    ) -> StorageResult:
+        """
+        Write the final engineered feature set.
+
+        Outputs (per 03_STORAGE_SPECIFICATION.md equivalent):
+            ``features/bls/<dataset_id>/feature_set.json``
+            ``features/bls/<dataset_id>/feature_set.csv``      (if write_csv=True)
+
+        Parameters
+        ----------
+        features : list[dict]
+            Calculated feature dictionaries.
+        dataset_id : str
+        write_csv : bool, default True
+            Also write a flat CSV.
+        overwrite : bool, default False
+            When True, overwrite existing feature files.
+
+        Returns
+        -------
+        StorageResult
+            ``path`` points to ``feature_set.json``.
+        """
+        if not features:
+            return StorageResult(success=False, message="No features to save.")
+
+        dest_dir = self._features_dir(dataset_id)
+        dest_json = dest_dir / "feature_set.json"
+
+        written = _write_json(dest_json, features, overwrite=overwrite)
+
+        if not written:
+            return StorageResult(
+                success=True,
+                path=dest_json,
+                skipped=True,
+                message="Feature set already exists — skipped.",
+            )
+
+        if write_csv:
+            csv_path = dest_dir / "feature_set.csv"
+            _write_csv(csv_path, features, overwrite=overwrite)
+
+        # Write metadata.json
+        meta_path = dest_dir / "metadata.json"
+        meta_data = {
+            "dataset_id": dataset_id,
+            "record_count": len(features),
+            "generated_at": _utc_now(),
+            "schema_version": _STORAGE_VERSION,
+            "source": _SOURCE_NAME,
+        }
+        _write_json(meta_path, meta_data, overwrite=True)
+
+        checksum = _sha256_file(dest_json)
+        logger.info(
+            "Saved feature set '%s' (%d records): %s (sha256=%s…)",
+            dataset_id, len(features), dest_json, checksum[:8],
         )
         return StorageResult(success=True, path=dest_json, checksum=checksum)
 

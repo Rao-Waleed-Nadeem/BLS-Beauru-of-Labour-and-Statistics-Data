@@ -219,7 +219,7 @@ Production Ready
 | M17 | Validation Engine | [x] |
 | M18 | Storage Manager | [x] |
 | M19 | Dataset Builder | [x] |
-| M20 | Feature Engineering | ☐ |
+| M20 | Feature Engineering | [x] |
 | M21 | Historical Backfill | ☐ |
 | M22 | Incremental Updates | ☐ |
 | M23 | End-to-End Testing | ☐ |
