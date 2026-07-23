@@ -4,10 +4,20 @@ from pipeline.validators.validation_result import (
     ValidationReport,
     ValidationStatus,
 )
+from pipeline.validators.release_quality import (
+    ReleaseKey,
+    detect_duplicate_records,
+    detect_missing_releases,
+    write_release_quality_reports,
+)
 
 __all__ = [
     "ValidationEngine",
     "CheckResult",
     "ValidationReport",
     "ValidationStatus",
+    "ReleaseKey",
+    "detect_duplicate_records",
+    "detect_missing_releases",
+    "write_release_quality_reports",
 ]
