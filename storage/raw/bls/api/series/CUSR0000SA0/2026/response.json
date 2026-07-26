@@ -1,0 +1,72 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUSR0000SA0",
+        "data": [
+          {
+            "year": "2026",
+            "period": "M06",
+            "periodName": "June",
+            "latest": "true",
+            "value": "332.568",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M05",
+            "periodName": "May",
+            "value": "333.979",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M04",
+            "periodName": "April",
+            "value": "332.407",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M03",
+            "periodName": "March",
+            "value": "330.293",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M02",
+            "periodName": "February",
+            "value": "327.460",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M01",
+            "periodName": "January",
+            "value": "326.588",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

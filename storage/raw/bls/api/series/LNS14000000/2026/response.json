@@ -1,0 +1,75 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "LNS14000000",
+        "data": [
+          {
+            "year": "2026",
+            "period": "M06",
+            "periodName": "June",
+            "latest": "true",
+            "value": "4.2",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M05",
+            "periodName": "May",
+            "value": "4.3",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M04",
+            "periodName": "April",
+            "value": "4.3",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.3",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M02",
+            "periodName": "February",
+            "value": "4.4",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2026",
+            "period": "M01",
+            "periodName": "January",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "12",
+                "text": "January 2026 estimates were revised to incorporate updated population controls. For more information, see www.bls.gov/cps/documentation.htm#pop."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

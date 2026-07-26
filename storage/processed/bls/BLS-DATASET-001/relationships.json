@@ -1,0 +1,12 @@
+[
+  {
+    "program_id": "BLS-PROGRAM-001",
+    "dataset_id": "BLS-DATASET-001",
+    "series_id": "CUUR0000SA0"
+  },
+  {
+    "program_id": "BLS-PROGRAM-001",
+    "dataset_id": "BLS-DATASET-001",
+    "series_id": "CUSR0000SA0"
+  }
+]

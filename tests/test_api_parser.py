@@ -531,6 +531,19 @@ class TestAPIParserEdgeCases:
         assert result.api.series_title == ""
         assert result.api.frequency == ""
 
+    def test_metadata_title_used_when_catalog_missing(self):
+        resp = _make_response([
+            {"seriesID": "CES0000000001", "data": [_make_obs()]}
+        ])
+        meta = {
+            "series_id": "CES0000000001",
+            "series_title": "Total Nonfarm Employment",
+            "frequency": "Monthly",
+        }
+        result = self.parser.parse(resp, meta)
+        assert result.api.series_title == "Total Nonfarm Employment"
+        assert result.api.frequency == "Monthly"
+
     def test_latest_false_coerced(self):
         resp = _make_response([
             {"seriesID": "S1", "data": [_make_obs(latest="false")]}

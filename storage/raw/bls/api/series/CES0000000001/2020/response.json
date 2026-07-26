@@ -1,0 +1,125 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CES0000000001",
+        "data": [
+          {
+            "year": "2020",
+            "period": "M12",
+            "periodName": "December",
+            "value": "142548",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M11",
+            "periodName": "November",
+            "value": "142733",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M10",
+            "periodName": "October",
+            "value": "142460",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M09",
+            "periodName": "September",
+            "value": "141770",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M08",
+            "periodName": "August",
+            "value": "140821",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M07",
+            "periodName": "July",
+            "value": "139255",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M06",
+            "periodName": "June",
+            "value": "137671",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M05",
+            "periodName": "May",
+            "value": "133040",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M04",
+            "periodName": "April",
+            "value": "130426",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M03",
+            "periodName": "March",
+            "value": "150895",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M02",
+            "periodName": "February",
+            "value": "152293",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M01",
+            "periodName": "January",
+            "value": "152031",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

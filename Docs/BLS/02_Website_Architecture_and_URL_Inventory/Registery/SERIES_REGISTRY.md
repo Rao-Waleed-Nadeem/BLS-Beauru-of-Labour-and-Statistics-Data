@@ -238,10 +238,40 @@ Program
 BLS-PROGRAM-001
 ```
 
+Dataset
+
+```text
+BLS-DATASET-001
+```
+
 Priority
 
 ```text
 High
+```
+
+Collection Method
+
+```text
+API
+```
+
+Storage
+
+```text
+raw/bls/cpi/
+
+processed/bls/cpi/
+```
+
+API Payload
+
+```json
+{
+  "seriesid": ["CUSR0000SA0"],
+  "startyear": "2020",
+  "endyear": "2026"
+}
 ```
 
 ---
@@ -266,10 +296,40 @@ Program
 BLS-PROGRAM-003
 ```
 
+Dataset
+
+```text
+BLS-DATASET-003
+```
+
 Priority
 
 ```text
 Critical
+```
+
+Collection Method
+
+```text
+API
+```
+
+Storage
+
+```text
+raw/bls/employment/
+
+processed/bls/employment/
+```
+
+API Payload
+
+```json
+{
+  "seriesid": ["LNS14000000"],
+  "startyear": "2020",
+  "endyear": "2026"
+}
 ```
 
 ---
@@ -294,10 +354,40 @@ Program
 BLS-PROGRAM-003
 ```
 
+Dataset
+
+```text
+BLS-DATASET-003
+```
+
 Priority
 
 ```text
 Critical
+```
+
+Collection Method
+
+```text
+API
+```
+
+Storage
+
+```text
+raw/bls/employment/
+
+processed/bls/employment/
+```
+
+API Payload
+
+```json
+{
+  "seriesid": ["CES0000000001"],
+  "startyear": "2020",
+  "endyear": "2026"
+}
 ```
 
 ---

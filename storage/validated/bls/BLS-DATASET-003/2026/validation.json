@@ -1,0 +1,518 @@
+[
+  {
+    "uuid": "38b6316f-0a69-4cb9-9262-7c5ce995f5b8",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "a6c32a89-df68-457f-bfb1-5fbd0a4b4d2e",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "94c41ac7-8562-475f-913d-8052ab779a00",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "1df6f7ee-95bb-4335-9d1b-29ca53bdef2e",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "310cba47-0094-48d4-b3f9-35a443002ae3",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "e8945404-cdc1-485f-9db6-d49abcbc4e73",
+    "series_id": "LNS14000000",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "b54ce8de-27ae-413a-89c3-0ebaf60528f1",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "da25b5b4-7679-493a-be0d-cbe78665e735",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "32b486ec-3567-4385-8923-85ef5c9f4a4a",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "febd715d-d85d-497d-94b1-4bca8f6d6a35",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "2a75dad4-5534-4fa8-89e2-e06ba0fde5b7",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "a92704fa-8886-4a6e-9339-844fd673bd2e",
+    "series_id": "CES0000000001",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  }
+]

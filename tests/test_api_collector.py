@@ -85,3 +85,62 @@ def test_api_collector_dry_run(tmp_path: Path):
     assert val_payload["status"] == "ok"
     assert val_payload["series_requested"] == 2
     assert val_payload["series_returned"] == 2
+
+
+def test_api_collector_writes_series_year_response_files(tmp_path: Path, monkeypatch):
+    scheduler = DummyScheduler()
+    storage_root = tmp_path / "raw" / "bls" / "api"
+    collector = APICollector(
+        scheduler=scheduler,
+        registry_loader=DummySeriesLoader(),
+        storage_root=storage_root,
+    )
+
+    def fake_post(payload, dry_run=False):
+        return {
+            "status": "REQUEST_SUCCEEDED",
+            "responseTime": 100,
+            "message": [],
+            "Results": {
+                "series": [
+                    {
+                        "seriesID": "CUUR0000SA0",
+                        "catalog": {"series_title": "CPI-U"},
+                        "data": [
+                            {"year": "2020", "period": "M01", "periodName": "January", "value": "257.971"},
+                            {"year": "2021", "period": "M01", "periodName": "January", "value": "261.582"},
+                        ],
+                    },
+                    {
+                        "seriesID": "CUSR0000SA0",
+                        "catalog": {"series_title": "CPI-U SA"},
+                        "data": [
+                            {"year": "2020", "period": "M01", "periodName": "January", "value": "258.687"},
+                        ],
+                    },
+                ]
+            },
+        }, 200, 0
+
+    monkeypatch.setattr(collector, "_post_with_retries", fake_post)
+
+    res = collector.collect(now=datetime(2026, 7, 15, 12, 0, 0, tzinfo=timezone.utc))
+
+    assert res["success"] == 1
+    assert (
+        storage_root / "series" / "CUUR0000SA0" / "2020" / "response.json"
+    ).exists()
+    assert (
+        storage_root / "series" / "CUUR0000SA0" / "2021" / "response.json"
+    ).exists()
+    assert (
+        storage_root / "series" / "CUSR0000SA0" / "2020" / "response.json"
+    ).exists()
+
+    response = json.loads(
+        (storage_root / "series" / "CUUR0000SA0" / "2020" / "response.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert response["Results"]["series"][0]["seriesID"] == "CUUR0000SA0"
+    assert [obs["year"] for obs in response["Results"]["series"][0]["data"]] == ["2020"]

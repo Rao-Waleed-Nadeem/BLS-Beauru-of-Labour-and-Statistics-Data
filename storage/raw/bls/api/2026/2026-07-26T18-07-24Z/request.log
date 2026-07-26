@@ -1,0 +1,1 @@
+[2026-07-26T18:07:24.325088+00:00] series=CUUR0000SA0 endpoint=https://api.bls.gov/publicAPI/v2/timeseries/data/ http_status=200 response_time=77 retry_count=0 validation_status=ok duration=1.64s file=D:\Tier 1\BLS\storage\raw\bls\api\2026\2026-07-26T18-07-24Z\response.json

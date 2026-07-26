@@ -85,10 +85,18 @@ class FeatureBuilder:
                     pct_change = (value_diff / abs(previous_value)) * 100
                     
             # Create feature row
+            nlp_text = (
+                f"{obj.api.series_title or obj.api.series_id} "
+                f"for {obj.api.period_name or obj.api.period} {obj.api.year} "
+                f"was {obj.api.value}."
+            )
             feat = {
                 "series_id": obj.api.series_id,
+                "series_title": obj.api.series_title,
+                "frequency": obj.api.frequency,
                 "year": obj.api.year,
                 "period": obj.api.period,
+                "period_name": obj.api.period_name,
                 "date_index": f"{obj.api.year}-{obj.api.period}",
                 "value": current_value,
                 "previous_value": previous_value,
@@ -97,6 +105,8 @@ class FeatureBuilder:
                 "month": month,
                 "quarter": quarter,
                 "latest": obj.api.latest,
+                "footnotes": "; ".join(obj.api.footnotes),
+                "nlp_text": nlp_text,
                 "publication_datetime": obj.metadata.collection_timestamp if obj.metadata else None,
             }
             features_list.append(feat)

@@ -154,6 +154,87 @@ class APICollector:
             return self.storage_root / year / timestamp
         return self.storage_root / year / f"{timestamp}-batch-{batch_number:03d}"
 
+    def _save_series_year_responses(
+        self,
+        *,
+        payload: Dict[str, Any],
+        request_payload: Dict[str, Any],
+        batch_dir: Path,
+        validation_payload: Dict[str, Any],
+    ) -> List[str]:
+        """Save one parser-ready raw response per series/year.
+
+        The API returns a multi-year batch response, while the project registry
+        also requires a discoverable per-series/year raw storage layout:
+
+            raw/bls/api/series/<SERIES_ID>/<YYYY>/response.json
+
+        Existing files are not overwritten, preserving raw immutability.
+        """
+        written: List[str] = []
+        series_list = payload.get("Results", {}).get("series", [])
+        if not isinstance(series_list, list):
+            return written
+
+        for series in series_list:
+            series_id = series.get("seriesID", "")
+            data_points = series.get("data", [])
+            if not series_id or not isinstance(data_points, list):
+                continue
+
+            by_year: Dict[str, List[Dict[str, Any]]] = {}
+            for obs in data_points:
+                if not isinstance(obs, dict):
+                    continue
+                year = str(obs.get("year", "")).strip()
+                if not year:
+                    continue
+                by_year.setdefault(year, []).append(obs)
+
+            for year, observations in by_year.items():
+                year_dir = self.storage_root / "series" / series_id / year
+                year_dir.mkdir(parents=True, exist_ok=True)
+
+                response_path = year_dir / "response.json"
+                request_path = year_dir / "request.json"
+                validation_path = year_dir / "validation_report.json"
+                metadata_path = year_dir / "metadata.json"
+
+                if response_path.exists():
+                    continue
+
+                series_payload = {
+                    "status": payload.get("status"),
+                    "responseTime": payload.get("responseTime"),
+                    "message": payload.get("message", []),
+                    "Results": {
+                        "series": [
+                            {
+                                **{k: v for k, v in series.items() if k != "data"},
+                                "data": observations,
+                            }
+                        ]
+                    },
+                }
+                response_path.write_text(json.dumps(series_payload, indent=2), encoding="utf-8")
+                request_path.write_text(json.dumps(request_payload, indent=2), encoding="utf-8")
+                validation_path.write_text(json.dumps(validation_payload, indent=2), encoding="utf-8")
+                metadata_path.write_text(
+                    json.dumps(
+                        {
+                            "series_id": series_id,
+                            "year": year,
+                            "record_count": len(observations),
+                            "source_batch": str(batch_dir),
+                        },
+                        indent=2,
+                    ),
+                    encoding="utf-8",
+                )
+                written.append(str(response_path))
+
+        return written
+
     def collect(
         self,
         *,
@@ -262,6 +343,12 @@ class APICollector:
                         "series_returned": len(resp_json.get("Results", {}).get("series", [])),
                     }
                     validation_path.write_text(json.dumps(validation_payload, indent=2), encoding="utf-8")
+                    per_year_files = self._save_series_year_responses(
+                        payload=resp_json,
+                        request_payload=payload,
+                        batch_dir=batch_dir,
+                        validation_payload=validation_payload,
+                    )
                     
                     with open(log_path, "a", encoding="utf-8") as f:
                         f.write(
@@ -272,7 +359,13 @@ class APICollector:
                         )
                     
                     results["success"] += 1
-                    results["details"].append({"series": series_ids, "status": "ok"})
+                    results["details"].append(
+                        {
+                            "series": series_ids,
+                            "status": "ok",
+                            "per_year_response_files": per_year_files,
+                        }
+                    )
                     
                     # Enqueue parsing jobs
                     for e in chunk:

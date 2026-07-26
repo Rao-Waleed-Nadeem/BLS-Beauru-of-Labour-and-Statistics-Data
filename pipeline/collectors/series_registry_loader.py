@@ -21,6 +21,8 @@ class SeriesRegistryEntry:
     api_payload: Dict[str, Any]
     enabled: bool
     implementation_status: str
+    frequency: str = ""
+    units: str = ""
 
 
 class SeriesRegistryLoader:
@@ -83,6 +85,8 @@ class SeriesRegistryLoader:
             program_id = self._pick_block_value(body, "Program")
             dataset_id = self._pick_block_value(body, "Dataset")
             priority = self._pick_block_value(body, "Priority")
+            frequency = self._pick_block_value(body, "Frequency")
+            units = self._pick_block_value(body, "Units")
             collection_method = self._pick_block_value(body, "Collection Method")
             storage_path = self._pick_block_value(body, "Storage")
             api_payload = self._pick_json_block(body, "API Payload")
@@ -106,6 +110,8 @@ class SeriesRegistryLoader:
                     api_payload=api_payload,
                     enabled=enabled,
                     implementation_status=implementation_status,
+                    frequency=frequency,
+                    units=units,
                 )
             )
 

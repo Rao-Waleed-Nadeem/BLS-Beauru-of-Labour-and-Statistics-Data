@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-07-26T19:16:35.130572+00:00",
+  "validation": "calendar_collector",
+  "event_count": 0,
+  "details": {
+    "ics": {
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://www.bls.gov/schedule/news_release/bls.ics"
+    }
+  }
+}

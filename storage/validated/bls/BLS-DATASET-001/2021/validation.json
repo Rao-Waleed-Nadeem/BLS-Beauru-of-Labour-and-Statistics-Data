@@ -1,0 +1,1077 @@
+[
+  {
+    "uuid": "51c70218-4614-4b23-884c-ef891754a3ab",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "e16c2c50-8dc5-4a88-8b85-26b296311900",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "12488c4e-5484-4cb5-ad7a-9916b6671371",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "ca39ebac-14e0-4d21-b2e0-a64dcb58c8dc",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "6c0eb6bc-fdf7-4b6a-a27c-6125c0ce7494",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "02826d08-557c-4816-831d-d5b2b3762cbe",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "ba76f280-108d-4284-8f13-61651cda9607",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "01be1106-fe13-4862-8c44-1deed7f0e0ae",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "7739bb0b-cf16-469d-a4fc-cf7d5ed1245a",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "7be7fa4d-a43a-4f5d-99fa-4f3ce02dc3c1",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "70076104-d66d-4eea-bd90-94d083549015",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "1c4acd4e-d661-4443-b19a-afb94d3fff83",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "10832482-6e6d-4fc9-9577-69392b23716d",
+    "series_id": "CUUR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "86a1aafd-ea2a-4518-82b8-b816701222f4",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "9a237e67-1021-43fd-ae6f-1349ba4d5108",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "250bf175-2dbf-4508-98cb-a3e7c101fc24",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "e45cab63-1305-443e-85ad-d2d0616cba75",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "70b7085f-5127-4401-abff-b4db757b1fc7",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "f93e42e4-68db-41b4-a043-8a19e846aa55",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "e96f60b3-cb1d-4c28-84c1-b9da7fa01a97",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "38924cb3-ccb9-4d4a-b5b2-7ee7fba7dbcc",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "c2cb99ce-4f54-4121-a240-ef0e063cf394",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "c5aa9873-54c3-47c8-8b4b-0863f9ce5420",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "0ead0833-8fc8-4bd2-80ab-5d62ac63c681",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "uuid": "dbb5fd7d-7de0-4b14-a454-5e43a06db172",
+    "series_id": "CUSR0000SA0",
+    "source_type": "API",
+    "overall_status": "PASS",
+    "checks": [
+      {
+        "check_name": "schema_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "required_fields",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "data_types",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "relationship_validation",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "duplicate_detection",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "timestamp_verification",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "check_name": "checksum_verification",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  }
+]

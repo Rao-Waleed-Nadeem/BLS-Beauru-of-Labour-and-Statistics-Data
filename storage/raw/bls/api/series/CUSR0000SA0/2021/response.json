@@ -1,0 +1,125 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUSR0000SA0",
+        "data": [
+          {
+            "year": "2021",
+            "period": "M12",
+            "periodName": "December",
+            "value": "280.845",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M11",
+            "periodName": "November",
+            "value": "278.919",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M10",
+            "periodName": "October",
+            "value": "276.550",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M09",
+            "periodName": "September",
+            "value": "273.910",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M08",
+            "periodName": "August",
+            "value": "272.676",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M07",
+            "periodName": "July",
+            "value": "271.903",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M06",
+            "periodName": "June",
+            "value": "270.654",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M05",
+            "periodName": "May",
+            "value": "268.383",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M04",
+            "periodName": "April",
+            "value": "266.614",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M03",
+            "periodName": "March",
+            "value": "264.961",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M02",
+            "periodName": "February",
+            "value": "263.579",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M01",
+            "periodName": "January",
+            "value": "262.687",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

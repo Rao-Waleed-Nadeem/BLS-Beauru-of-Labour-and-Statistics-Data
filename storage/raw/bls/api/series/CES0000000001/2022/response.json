@@ -1,0 +1,125 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CES0000000001",
+        "data": [
+          {
+            "year": "2022",
+            "period": "M12",
+            "periodName": "December",
+            "value": "154342",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M11",
+            "periodName": "November",
+            "value": "154242",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M10",
+            "periodName": "October",
+            "value": "153939",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M09",
+            "periodName": "September",
+            "value": "153582",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M08",
+            "periodName": "August",
+            "value": "153362",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M07",
+            "periodName": "July",
+            "value": "153072",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M06",
+            "periodName": "June",
+            "value": "152358",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M05",
+            "periodName": "May",
+            "value": "151924",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M04",
+            "periodName": "April",
+            "value": "151623",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M03",
+            "periodName": "March",
+            "value": "151315",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M02",
+            "periodName": "February",
+            "value": "150825",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M01",
+            "periodName": "January",
+            "value": "150006",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

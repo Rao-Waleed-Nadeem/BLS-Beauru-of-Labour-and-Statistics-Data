@@ -333,8 +333,8 @@ class APIParser(BaseParser):
 
             # Attach catalog/series-level fields to each observation
             catalog = series.get("catalog", {})
-            series_title = catalog.get("series_title", "")
-            frequency = catalog.get("frequency", "")
+            series_title = catalog.get("series_title", "") or metadata.get("series_title", "")
+            frequency = catalog.get("frequency", "") or metadata.get("frequency", "")
 
             for obs in data_points:
                 # Merge series-level fields into the observation dict

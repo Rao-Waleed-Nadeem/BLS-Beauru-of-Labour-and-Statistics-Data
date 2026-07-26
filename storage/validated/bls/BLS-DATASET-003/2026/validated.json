@@ -1,0 +1,404 @@
+[
+  {
+    "metadata": {
+      "uuid": "38b6316f-0a69-4cb9-9262-7c5ce995f5b8",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "b45f2f2ad6b8a50b193755636885f0721f6c646d015f25f84a206bdab7d84166",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M06",
+      "period_name": "June",
+      "value": "4.2",
+      "latest": true,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "a6c32a89-df68-457f-bfb1-5fbd0a4b4d2e",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "ee3cfbb3a00aee5ff8b67af23689430dd662b8b17ffcc38eb58d58cfd5694d6e",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M05",
+      "period_name": "May",
+      "value": "4.3",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "94c41ac7-8562-475f-913d-8052ab779a00",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "dd3322252be391a15ef77fed00339d72bfbe90f0587622ac0c2251f2ddc3d199",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M04",
+      "period_name": "April",
+      "value": "4.3",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "1df6f7ee-95bb-4335-9d1b-29ca53bdef2e",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "bc37e9af8e796812c69e24957a64e5093f8d1bdd219d2436ca78e998a5c1f2d9",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M03",
+      "period_name": "March",
+      "value": "4.3",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "310cba47-0094-48d4-b3f9-35a443002ae3",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "6f7e6ce4f05e1db51fa33d6d76eeb84445d1ac7741304a1d6fa1d8157bc24f7d",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M02",
+      "period_name": "February",
+      "value": "4.4",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "e8945404-cdc1-485f-9db6-d49abcbc4e73",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "LNS14000000",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "5c4a8240885e1545ae94431fdfb736765d624bcc1f479c8e2a2f3f368d48a75d",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "LNS14000000",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M01",
+      "period_name": "January",
+      "value": "4.3",
+      "latest": false,
+      "footnotes": [
+        "January 2026 estimates were revised to incorporate updated population controls. For more information, see www.bls.gov/cps/documentation.htm#pop."
+      ]
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "b54ce8de-27ae-413a-89c3-0ebaf60528f1",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "f6b375f7155687cd0e5a0d2ddb845edfd5bce1ab4c00b43020dd23406bb190cb",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M06",
+      "period_name": "June",
+      "value": "158984",
+      "latest": true,
+      "footnotes": [
+        "preliminary"
+      ]
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "da25b5b4-7679-493a-be0d-cbe78665e735",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "318ac2791cea50b3aaa95dc147969cb8718e12cfe952fe32f15f0f9a60a27623",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M05",
+      "period_name": "May",
+      "value": "158927",
+      "latest": false,
+      "footnotes": [
+        "preliminary"
+      ]
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "32b486ec-3567-4385-8923-85ef5c9f4a4a",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "3e8caa910b8a00f1d381306332ee5c13320ed9336ddd906576844aaad86bfcab",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M04",
+      "period_name": "April",
+      "value": "158798",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "febd715d-d85d-497d-94b1-4bca8f6d6a35",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "b99f21c8afa0b222a7aac1d32b2181b74c87a7f5a469d3401f029bd2c5bf207d",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M03",
+      "period_name": "March",
+      "value": "158650",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "2a75dad4-5534-4fa8-89e2-e06ba0fde5b7",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "ac5af72e2c77ff5e2930e48a20c9a9405e7d9809977982125f6288305dae17e5",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M02",
+      "period_name": "February",
+      "value": "158436",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  },
+  {
+    "metadata": {
+      "uuid": "a92704fa-8886-4a6e-9339-844fd673bd2e",
+      "dataset_id": "BLS-DATASET-003",
+      "program_id": "BLS-PROGRAM-003",
+      "series_id": "CES0000000001",
+      "collector": "api_collector",
+      "collector_version": "1.0",
+      "schema_version": "1.0",
+      "source_type": "API",
+      "collection_timestamp": "2026-07-26T18:14:28Z",
+      "validation_status": "PASS",
+      "checksum": "da4b7a28560a275991f34ebc04804090fd5b7f47c1c6d182fe455c7f3e7220e5",
+      "normalization_timestamp": "2026-07-26T18:14:32Z"
+    },
+    "release": null,
+    "event": null,
+    "api": {
+      "series_id": "CES0000000001",
+      "series_title": "",
+      "frequency": "",
+      "year": "2026",
+      "period": "M01",
+      "period_name": "January",
+      "value": "158592",
+      "latest": false,
+      "footnotes": []
+    },
+    "html": null,
+    "pdf": null,
+    "attachments": null,
+    "relationships": null
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SA0",
+        "data": [
+          {
+            "year": "2020",
+            "period": "M13",
+            "periodName": "Annual",
+            "value": "258.811",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M12",
+            "periodName": "December",
+            "value": "260.474",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M11",
+            "periodName": "November",
+            "value": "260.229",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M10",
+            "periodName": "October",
+            "value": "260.388",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M09",
+            "periodName": "September",
+            "value": "260.280",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M08",
+            "periodName": "August",
+            "value": "259.918",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M07",
+            "periodName": "July",
+            "value": "259.101",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M06",
+            "periodName": "June",
+            "value": "257.797",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M05",
+            "periodName": "May",
+            "value": "256.394",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M04",
+            "periodName": "April",
+            "value": "256.389",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M03",
+            "periodName": "March",
+            "value": "258.115",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M02",
+            "periodName": "February",
+            "value": "258.678",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M01",
+            "periodName": "January",
+            "value": "257.971",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

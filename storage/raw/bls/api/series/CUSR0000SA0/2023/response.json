@@ -1,0 +1,125 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUSR0000SA0",
+        "data": [
+          {
+            "year": "2023",
+            "period": "M12",
+            "periodName": "December",
+            "value": "308.741",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M11",
+            "periodName": "November",
+            "value": "308.148",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M10",
+            "periodName": "October",
+            "value": "307.696",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M09",
+            "periodName": "September",
+            "value": "307.276",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M08",
+            "periodName": "August",
+            "value": "306.082",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M07",
+            "periodName": "July",
+            "value": "304.609",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M06",
+            "periodName": "June",
+            "value": "304.014",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M05",
+            "periodName": "May",
+            "value": "303.334",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M04",
+            "periodName": "April",
+            "value": "302.845",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M03",
+            "periodName": "March",
+            "value": "301.821",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M02",
+            "periodName": "February",
+            "value": "301.450",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M01",
+            "periodName": "January",
+            "value": "300.420",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

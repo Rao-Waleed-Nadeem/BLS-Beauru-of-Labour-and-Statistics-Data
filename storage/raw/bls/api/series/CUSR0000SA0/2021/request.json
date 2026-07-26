@@ -1,0 +1,13 @@
+{
+  "seriesid": [
+    "CUUR0000SA0",
+    "CUSR0000SA0",
+    "LNS14000000",
+    "CES0000000001"
+  ],
+  "startyear": "2020",
+  "endyear": "2026",
+  "catalog": true,
+  "calculations": true,
+  "annualaverage": true
+}

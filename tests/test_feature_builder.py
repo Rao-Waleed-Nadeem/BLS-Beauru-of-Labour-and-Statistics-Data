@@ -55,6 +55,9 @@ def test_calculate_features_month():
     assert features[0]["previous_value"] is None
     assert features[0]["value_diff"] is None
     assert features[0]["pct_change"] is None
+    assert features[0]["series_title"] == "Test Series"
+    assert features[0]["period_name"] == "Test"
+    assert features[0]["nlp_text"] == "Test Series for Test 2026 was 100.0."
 
     # Second row
     assert features[1]["month"] == 2

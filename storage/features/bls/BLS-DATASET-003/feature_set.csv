@@ -1,0 +1,156 @@
+series_id,series_title,frequency,year,period,period_name,date_index,value,previous_value,value_diff,pct_change,month,quarter,latest,footnotes,nlp_text,publication_datetime
+LNS14000000,Unemployment Rate,Monthly,2020,M01,January,2020-M01,3.6,,,,1,,False,,Unemployment Rate for January 2020 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M01,January,2020-M01,152031.0,3.6,152027.4,4222983.333333333,1,,False,,Total Nonfarm Employment for January 2020 was 152031.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M02,February,2020-M02,3.5,152031.0,-152027.5,-99.99769783794095,2,,False,,Unemployment Rate for February 2020 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M02,February,2020-M02,152293.0,3.5,152289.5,4351128.571428572,2,,False,,Total Nonfarm Employment for February 2020 was 152293.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M03,March,2020-M03,4.4,152293.0,-152288.6,-99.99711083240858,3,,False,,Unemployment Rate for March 2020 was 4.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M03,March,2020-M03,150895.0,4.4,150890.6,3429331.8181818184,3,,False,,Total Nonfarm Employment for March 2020 was 150895.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M04,April,2020-M04,14.8,150895.0,-150880.2,-99.9901918552636,4,,False,,Unemployment Rate for April 2020 was 14.8.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M04,April,2020-M04,130426.0,14.8,130411.2,881156.7567567567,4,,False,,Total Nonfarm Employment for April 2020 was 130426.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M05,May,2020-M05,13.2,130426.0,-130412.8,-99.98987931854079,5,,False,,Unemployment Rate for May 2020 was 13.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M05,May,2020-M05,133040.0,13.2,133026.8,1007778.7878787878,5,,False,,Total Nonfarm Employment for May 2020 was 133040.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M06,June,2020-M06,11.0,133040.0,-133029.0,-99.99173180998197,6,,False,,Unemployment Rate for June 2020 was 11.0.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M06,June,2020-M06,137671.0,11.0,137660.0,1251454.5454545454,6,,False,,Total Nonfarm Employment for June 2020 was 137671.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M07,July,2020-M07,10.2,137671.0,-137660.8,-99.99259103224352,7,,False,,Unemployment Rate for July 2020 was 10.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M07,July,2020-M07,139255.0,10.2,139244.8,1365145.0980392157,7,,False,,Total Nonfarm Employment for July 2020 was 139255.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M08,August,2020-M08,8.4,139255.0,-139246.6,-99.993967900614,8,,False,,Unemployment Rate for August 2020 was 8.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M08,August,2020-M08,140821.0,8.4,140812.6,1676340.4761904762,8,,False,,Total Nonfarm Employment for August 2020 was 140821.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M09,September,2020-M09,7.8,140821.0,-140813.2,-99.99446105339403,9,,False,,Unemployment Rate for September 2020 was 7.8.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M09,September,2020-M09,141770.0,7.8,141762.2,1817464.1025641027,9,,False,,Total Nonfarm Employment for September 2020 was 141770.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M10,October,2020-M10,6.9,141770.0,-141763.1,-99.9951329618396,10,,False,,Unemployment Rate for October 2020 was 6.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M10,October,2020-M10,142460.0,6.9,142453.1,2064537.6811594204,10,,False,,Total Nonfarm Employment for October 2020 was 142460.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M11,November,2020-M11,6.7,142460.0,-142453.3,-99.99529692545275,11,,False,,Unemployment Rate for November 2020 was 6.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M11,November,2020-M11,142733.0,6.7,142726.3,2130243.2835820895,11,,False,,Total Nonfarm Employment for November 2020 was 142733.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2020,M12,December,2020-M12,6.7,142733.0,-142726.3,-99.9953059208452,12,,False,,Unemployment Rate for December 2020 was 6.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2020,M12,December,2020-M12,142548.0,6.7,142541.3,2127482.0895522386,12,,False,,Total Nonfarm Employment for December 2020 was 142548.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M01,January,2021-M01,6.4,142548.0,-142541.6,-99.99551028425513,1,,False,,Unemployment Rate for January 2021 was 6.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M01,January,2021-M01,142863.0,6.4,142856.6,2232134.375,1,,False,,Total Nonfarm Employment for January 2021 was 142863.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M02,February,2021-M02,6.2,142863.0,-142856.8,-99.9956601779327,2,,False,,Unemployment Rate for February 2021 was 6.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M02,February,2021-M02,143380.0,6.2,143373.8,2312480.64516129,2,,False,,Total Nonfarm Employment for February 2021 was 143380.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M03,March,2021-M03,6.1,143380.0,-143373.9,-99.99574557120937,3,,False,,Unemployment Rate for March 2021 was 6.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M03,March,2021-M03,144232.0,6.1,144225.9,2364359.0163934426,3,,False,,Total Nonfarm Employment for March 2021 was 144232.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M04,April,2021-M04,6.1,144232.0,-144225.9,-99.99577070275667,4,,False,,Unemployment Rate for April 2021 was 6.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M04,April,2021-M04,144587.0,6.1,144580.9,2370178.6885245903,4,,False,,Total Nonfarm Employment for April 2021 was 144587.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M05,May,2021-M05,5.8,144587.0,-144581.2,-99.99598857435316,5,,False,,Unemployment Rate for May 2021 was 5.8.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M05,May,2021-M05,145065.0,5.8,145059.2,2501020.6896551726,5,,False,,Total Nonfarm Employment for May 2021 was 145065.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M06,June,2021-M06,5.9,145065.0,-145059.1,-99.9959328576845,6,,False,,Unemployment Rate for June 2021 was 5.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M06,June,2021-M06,145820.0,5.9,145814.1,2471425.4237288134,6,,False,,Total Nonfarm Employment for June 2021 was 145820.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M07,July,2021-M07,5.4,145820.0,-145814.6,-99.99629680427925,7,,False,,Unemployment Rate for July 2021 was 5.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M07,July,2021-M07,146762.0,5.4,146756.6,2717714.8148148144,7,,False,,Total Nonfarm Employment for July 2021 was 146762.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M08,August,2021-M08,5.1,146762.0,-146756.9,-99.9965249860318,8,,False,,Unemployment Rate for August 2021 was 5.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M08,August,2021-M08,147314.0,5.1,147308.9,2888409.8039215687,8,,False,,Total Nonfarm Employment for August 2021 was 147314.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M09,September,2021-M09,4.7,147314.0,-147309.3,-99.99680953609297,9,,False,,Unemployment Rate for September 2021 was 4.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M09,September,2021-M09,147771.0,4.7,147766.3,3143963.829787234,9,,False,,Total Nonfarm Employment for September 2021 was 147771.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M10,October,2021-M10,4.5,147771.0,-147766.5,-99.99695474754857,10,,False,,Unemployment Rate for October 2021 was 4.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M10,October,2021-M10,148572.0,4.5,148567.5,3301500.0,10,,False,,Total Nonfarm Employment for October 2021 was 148572.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M11,November,2021-M11,4.1,148572.0,-148567.9,-99.99724039522924,11,,False,,Unemployment Rate for November 2021 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M11,November,2021-M11,149230.0,4.1,149225.9,3639656.0975609757,11,,False,,Total Nonfarm Employment for November 2021 was 149230.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2021,M12,December,2021-M12,3.9,149230.0,-149226.1,-99.99738658446692,12,,False,,Unemployment Rate for December 2021 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2021,M12,December,2021-M12,149816.0,3.9,149812.1,3841335.8974358975,12,,False,,Total Nonfarm Employment for December 2021 was 149816.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M01,January,2022-M01,4.0,149816.0,-149812.0,-99.99733005820474,1,,False,,Unemployment Rate for January 2022 was 4.0.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M01,January,2022-M01,150006.0,4.0,150002.0,3750050.0,1,,False,,Total Nonfarm Employment for January 2022 was 150006.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M02,February,2022-M02,3.9,150006.0,-150002.1,-99.99740010399584,2,,False,,Unemployment Rate for February 2022 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M02,February,2022-M02,150825.0,3.9,150821.1,3867207.692307692,2,,False,,Total Nonfarm Employment for February 2022 was 150825.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M03,March,2022-M03,3.7,150825.0,-150821.3,-99.99754682579147,3,,False,,Unemployment Rate for March 2022 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M03,March,2022-M03,151315.0,3.7,151311.3,4089494.594594594,3,,False,,Total Nonfarm Employment for March 2022 was 151315.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M04,April,2022-M04,3.7,151315.0,-151311.3,-99.99755476985096,4,,False,,Unemployment Rate for April 2022 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M04,April,2022-M04,151623.0,3.7,151619.3,4097818.918918919,4,,False,,Total Nonfarm Employment for April 2022 was 151623.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M05,May,2022-M05,3.6,151623.0,-151619.4,-99.99762569003383,5,,False,,Unemployment Rate for May 2022 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M05,May,2022-M05,151924.0,3.6,151920.4,4220011.111111111,5,,False,,Total Nonfarm Employment for May 2022 was 151924.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M06,June,2022-M06,3.6,151924.0,-151920.4,-99.99763039414444,6,,False,,Unemployment Rate for June 2022 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M06,June,2022-M06,152358.0,3.6,152354.4,4232066.666666666,6,,False,,Total Nonfarm Employment for June 2022 was 152358.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M07,July,2022-M07,3.5,152358.0,-152354.5,-99.99770277898108,7,,False,,Unemployment Rate for July 2022 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M07,July,2022-M07,153072.0,3.5,153068.5,4373385.714285715,7,,False,,Total Nonfarm Employment for July 2022 was 153072.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M08,August,2022-M08,3.6,153072.0,-153068.4,-99.99764816556915,8,,False,,Unemployment Rate for August 2022 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M08,August,2022-M08,153362.0,3.6,153358.4,4259955.555555555,8,,False,,Total Nonfarm Employment for August 2022 was 153362.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M09,September,2022-M09,3.5,153362.0,-153358.5,-99.99771781797317,9,,False,,Unemployment Rate for September 2022 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M09,September,2022-M09,153582.0,3.5,153578.5,4387957.142857143,9,,False,,Total Nonfarm Employment for September 2022 was 153582.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M10,October,2022-M10,3.6,153582.0,-153578.4,-99.99765597530961,10,,False,,Unemployment Rate for October 2022 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M10,October,2022-M10,153939.0,3.6,153935.4,4275983.333333333,10,,False,,Total Nonfarm Employment for October 2022 was 153939.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M11,November,2022-M11,3.6,153939.0,-153935.4,-99.99766141133826,11,,False,,Unemployment Rate for November 2022 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M11,November,2022-M11,154242.0,3.6,154238.4,4284400.0,11,,False,,Total Nonfarm Employment for November 2022 was 154242.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2022,M12,December,2022-M12,3.5,154242.0,-154238.5,-99.9977308385524,12,,False,,Unemployment Rate for December 2022 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2022,M12,December,2022-M12,154342.0,3.5,154338.5,4409671.428571428,12,,False,,Total Nonfarm Employment for December 2022 was 154342.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M01,January,2023-M01,3.5,154342.0,-154338.5,-99.99773230876883,1,,False,,Unemployment Rate for January 2023 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M01,January,2023-M01,154776.0,3.5,154772.5,4422071.428571428,1,,False,,Total Nonfarm Employment for January 2023 was 154776.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M02,February,2023-M02,3.6,154776.0,-154772.4,-99.99767405799348,2,,False,,Unemployment Rate for February 2023 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M02,February,2023-M02,155066.0,3.6,155062.4,4307288.888888888,2,,False,,Total Nonfarm Employment for February 2023 was 155066.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M03,March,2023-M03,3.5,155066.0,-155062.5,-99.99774289657307,3,,False,,Unemployment Rate for March 2023 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M03,March,2023-M03,155134.0,3.5,155130.5,4432300.0,3,,False,,Total Nonfarm Employment for March 2023 was 155134.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M04,April,2023-M04,3.4,155134.0,-155130.6,-99.99780834633285,4,,False,,Unemployment Rate for April 2023 was 3.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M04,April,2023-M04,155375.0,3.4,155371.6,4569752.94117647,4,,False,,Total Nonfarm Employment for April 2023 was 155375.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M05,May,2023-M05,3.6,155375.0,-155371.4,-99.99768302493965,5,,False,,Unemployment Rate for May 2023 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M05,May,2023-M05,155655.0,3.6,155651.4,4323650.0,5,,False,,Total Nonfarm Employment for May 2023 was 155655.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M06,June,2023-M06,3.6,155655.0,-155651.4,-99.9976871928303,6,,False,,Unemployment Rate for June 2023 was 3.6.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M06,June,2023-M06,155880.0,3.6,155876.4,4329900.0,6,,False,,Total Nonfarm Employment for June 2023 was 155880.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M07,July,2023-M07,3.5,155880.0,-155876.5,-99.99775468308955,7,,False,,Unemployment Rate for July 2023 was 3.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M07,July,2023-M07,156043.0,3.5,156039.5,4458271.428571428,7,,False,,Total Nonfarm Employment for July 2023 was 156043.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M08,August,2023-M08,3.7,156043.0,-156039.3,-99.99762885871202,8,,False,,Unemployment Rate for August 2023 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M08,August,2023-M08,156261.0,3.7,156257.3,4223170.27027027,8,,False,,Total Nonfarm Employment for August 2023 was 156261.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M09,September,2023-M09,3.7,156261.0,-156257.3,-99.99763216669547,9,,False,,Unemployment Rate for September 2023 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M09,September,2023-M09,156417.0,3.7,156413.3,4227386.486486486,9,,False,,Total Nonfarm Employment for September 2023 was 156417.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M10,October,2023-M10,3.9,156417.0,-156413.1,-99.99750666487658,10,,False,,Unemployment Rate for October 2023 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M10,October,2023-M10,156576.0,3.9,156572.1,4014669.230769231,10,,False,,Total Nonfarm Employment for October 2023 was 156576.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M11,November,2023-M11,3.7,156576.0,-156572.3,-99.9976369303086,11,,False,,Unemployment Rate for November 2023 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M11,November,2023-M11,156703.0,3.7,156699.3,4235116.216216216,11,,False,,Total Nonfarm Employment for November 2023 was 156703.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2023,M12,December,2023-M12,3.8,156703.0,-156699.2,-99.99757503047167,12,,False,,Unemployment Rate for December 2023 was 3.8.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2023,M12,December,2023-M12,156857.0,3.8,156853.2,4127715.7894736845,12,,False,,Total Nonfarm Employment for December 2023 was 156857.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M01,January,2024-M01,3.7,156857.0,-156853.3,-99.99764116360761,1,,False,,Unemployment Rate for January 2024 was 3.7.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M01,January,2024-M01,157032.0,3.7,157028.3,4244008.108108107,1,,False,,Total Nonfarm Employment for January 2024 was 157032.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M02,February,2024-M02,3.9,157032.0,-157028.1,-99.99751642977228,2,,False,,Unemployment Rate for February 2024 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M02,February,2024-M02,157238.0,3.9,157234.1,4031643.58974359,2,,False,,Total Nonfarm Employment for February 2024 was 157238.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M03,March,2024-M03,3.9,157238.0,-157234.1,-99.99751968353706,3,,False,,Unemployment Rate for March 2024 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M03,March,2024-M03,157466.0,3.9,157462.1,4037489.743589744,3,,False,,Total Nonfarm Employment for March 2024 was 157466.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M04,April,2024-M04,3.9,157466.0,-157462.1,-99.99752327486569,4,,False,,Unemployment Rate for April 2024 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M04,April,2024-M04,157530.0,3.9,157526.1,4039130.7692307695,4,,False,,Total Nonfarm Employment for April 2024 was 157530.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M05,May,2024-M05,3.9,157530.0,-157526.1,-99.99752428108933,5,,False,,Unemployment Rate for May 2024 was 3.9.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M05,May,2024-M05,157608.0,3.9,157604.1,4041130.7692307695,5,,False,,Total Nonfarm Employment for May 2024 was 157608.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M06,June,2024-M06,4.1,157608.0,-157603.9,-99.99739860920765,6,,False,,Unemployment Rate for June 2024 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M06,June,2024-M06,157695.0,4.1,157690.9,3846119.512195122,6,,False,,Total Nonfarm Employment for June 2024 was 157695.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M07,July,2024-M07,4.2,157695.0,-157690.8,-99.997336630838,7,,False,,Unemployment Rate for July 2024 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M07,July,2024-M07,157748.0,4.2,157743.8,3755804.761904761,7,,False,,Total Nonfarm Employment for July 2024 was 157748.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M08,August,2024-M08,4.2,157748.0,-157743.8,-99.99733752567386,8,,False,,Unemployment Rate for August 2024 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M08,August,2024-M08,157757.0,4.2,157752.8,3756019.0476190476,8,,False,,Total Nonfarm Employment for August 2024 was 157757.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M09,September,2024-M09,4.1,157757.0,-157752.9,-99.99740106619674,9,,False,,Unemployment Rate for September 2024 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M09,September,2024-M09,157912.0,4.1,157907.9,3851412.195121952,9,,False,,Total Nonfarm Employment for September 2024 was 157912.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M10,October,2024-M10,4.1,157912.0,-157907.9,-99.99740361720451,10,,False,,Unemployment Rate for October 2024 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M10,October,2024-M10,157945.0,4.1,157940.9,3852217.073170732,10,,False,,Total Nonfarm Employment for October 2024 was 157945.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M11,November,2024-M11,4.2,157945.0,-157940.8,-99.9973408464972,11,,False,,Unemployment Rate for November 2024 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M11,November,2024-M11,158079.0,4.2,158074.8,3763685.7142857136,11,,False,,Total Nonfarm Employment for November 2024 was 158079.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2024,M12,December,2024-M12,4.1,158079.0,-158074.9,-99.99740636011109,12,,False,,Unemployment Rate for December 2024 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2024,M12,December,2024-M12,158316.0,4.1,158311.9,3861265.853658537,12,,False,,Total Nonfarm Employment for December 2024 was 158316.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M01,January,2025-M01,4.0,158316.0,-158312.0,-99.99747340761515,1,,False,,Unemployment Rate for January 2025 was 4.0.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M01,January,2025-M01,158268.0,4.0,158264.0,3956600.0,1,,False,,Total Nonfarm Employment for January 2025 was 158268.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M02,February,2025-M02,4.2,158268.0,-158263.8,-99.99734627340965,2,,False,,Unemployment Rate for February 2025 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M02,February,2025-M02,158310.0,4.2,158305.8,3769185.7142857136,2,,False,,Total Nonfarm Employment for February 2025 was 158310.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M03,March,2025-M03,4.2,158310.0,-158305.8,-99.9973469774493,3,,False,,Unemployment Rate for March 2025 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M03,March,2025-M03,158377.0,4.2,158372.8,3770780.952380952,3,,False,,Total Nonfarm Employment for March 2025 was 158377.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M04,April,2025-M04,4.2,158377.0,-158372.8,-99.9973480997872,4,,False,,Unemployment Rate for April 2025 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M04,April,2025-M04,158485.0,4.2,158480.8,3773352.38095238,4,,False,,Total Nonfarm Employment for April 2025 was 158485.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M05,May,2025-M05,4.3,158485.0,-158480.7,-99.99728680947725,5,,False,,Unemployment Rate for May 2025 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M05,May,2025-M05,158498.0,4.3,158493.7,3685900.000000001,5,,False,,Total Nonfarm Employment for May 2025 was 158498.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M06,June,2025-M06,4.1,158498.0,-158493.9,-99.99741321657055,6,,False,,Unemployment Rate for June 2025 was 4.1.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M06,June,2025-M06,158478.0,4.1,158473.9,3865217.073170732,6,,False,,Total Nonfarm Employment for June 2025 was 158478.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M07,July,2025-M07,4.3,158478.0,-158473.7,-99.99728668963516,7,,False,,Unemployment Rate for July 2025 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M07,July,2025-M07,158542.0,4.3,158537.7,3686923.2558139544,7,,False,,Total Nonfarm Employment for July 2025 was 158542.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M08,August,2025-M08,4.3,158542.0,-158537.7,-99.99728778494028,8,,False,,Unemployment Rate for August 2025 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M08,August,2025-M08,158472.0,4.3,158467.7,3685295.34883721,8,,False,,Total Nonfarm Employment for August 2025 was 158472.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M09,September,2025-M09,4.4,158472.0,-158467.6,-99.99722348427483,9,,False,,Unemployment Rate for September 2025 was 4.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M09,September,2025-M09,158548.0,4.4,158543.6,3603263.6363636362,9,,False,,Total Nonfarm Employment for September 2025 was 158548.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M10,October,2025-M10,158408.0,158548.0,-140.0,-0.08830133461160027,10,,False,,Total Nonfarm Employment for October 2025 was 158408.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M11,November,2025-M11,4.5,158408.0,-158403.5,-99.99715923438211,11,,False,,Unemployment Rate for November 2025 was 4.5.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M11,November,2025-M11,158449.0,4.5,158444.5,3520988.888888889,11,,False,,Total Nonfarm Employment for November 2025 was 158449.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2025,M12,December,2025-M12,4.4,158449.0,-158444.6,-99.99722308124382,12,,False,,Unemployment Rate for December 2025 was 4.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2025,M12,December,2025-M12,158432.0,4.4,158427.6,3600627.272727273,12,,False,,Total Nonfarm Employment for December 2025 was 158432.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M01,January,2026-M01,4.3,158432.0,-158427.7,-99.99728590183801,1,,False,"January 2026 estimates were revised to incorporate updated population controls. For more information, see www.bls.gov/cps/documentation.htm#pop.",Unemployment Rate for January 2026 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M01,January,2026-M01,158592.0,4.3,158587.7,3688086.046511628,1,,False,,Total Nonfarm Employment for January 2026 was 158592.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M02,February,2026-M02,4.4,158592.0,-158587.6,-99.99722558514932,2,,False,,Unemployment Rate for February 2026 was 4.4.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M02,February,2026-M02,158436.0,4.4,158431.6,3600718.1818181816,2,,False,,Total Nonfarm Employment for February 2026 was 158436.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M03,March,2026-M03,4.3,158436.0,-158431.7,-99.99728597036028,3,,False,,Unemployment Rate for March 2026 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M03,March,2026-M03,158650.0,4.3,158645.7,3689434.8837209307,3,,False,,Total Nonfarm Employment for March 2026 was 158650.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M04,April,2026-M04,4.3,158650.0,-158645.7,-99.9972896312638,4,,False,,Unemployment Rate for April 2026 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M04,April,2026-M04,158798.0,4.3,158793.7,3692876.7441860475,4,,False,,Total Nonfarm Employment for April 2026 was 158798.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M05,May,2026-M05,4.3,158798.0,-158793.7,-99.99729215733197,5,,False,,Unemployment Rate for May 2026 was 4.3.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M05,May,2026-M05,158927.0,4.3,158922.7,3695876.7441860475,5,,False,preliminary,Total Nonfarm Employment for May 2026 was 158927.,2026-07-26T19:16:15Z
+LNS14000000,Unemployment Rate,Monthly,2026,M06,June,2026-M06,4.2,158927.0,-158922.8,-99.99735727724048,6,,True,,Unemployment Rate for June 2026 was 4.2.,2026-07-26T19:16:15Z
+CES0000000001,Total Nonfarm Employment,Monthly,2026,M06,June,2026-M06,158984.0,4.2,158979.8,3785233.333333333,6,,True,preliminary,Total Nonfarm Employment for June 2026 was 158984.,2026-07-26T19:16:15Z

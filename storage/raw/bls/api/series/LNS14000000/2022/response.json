@@ -1,0 +1,125 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 131,
+  "message": [
+    "The catalog has been disabled for this request.",
+    "Calculations have been disabled for this request."
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "LNS14000000",
+        "data": [
+          {
+            "year": "2022",
+            "period": "M12",
+            "periodName": "December",
+            "value": "3.5",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M11",
+            "periodName": "November",
+            "value": "3.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M10",
+            "periodName": "October",
+            "value": "3.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M09",
+            "periodName": "September",
+            "value": "3.5",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M08",
+            "periodName": "August",
+            "value": "3.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M07",
+            "periodName": "July",
+            "value": "3.5",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M06",
+            "periodName": "June",
+            "value": "3.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M05",
+            "periodName": "May",
+            "value": "3.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M04",
+            "periodName": "April",
+            "value": "3.7",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M03",
+            "periodName": "March",
+            "value": "3.7",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M02",
+            "periodName": "February",
+            "value": "3.9",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M01",
+            "periodName": "January",
+            "value": "4.0",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
